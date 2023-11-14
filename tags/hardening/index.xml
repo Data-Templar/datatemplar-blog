@@ -6,16 +6,15 @@
     <description>Recent content in Hardening on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 12 Jan 2021 22:35:40 +0100</lastBuildDate><atom:link href="/tags/hardening/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jan 2021 22:35:40 +0100</lastBuildDate>
+    <atom:link href="/tags/hardening/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Début de quête à la découverte d&#39;AWS</title>
       <link>/creationcompteaws/</link>
       <pubDate>Tue, 12 Jan 2021 22:35:40 +0100</pubDate>
-      
       <guid>/creationcompteaws/</guid>
       <description>En ce début d&amp;rsquo;année 2021, je me suis lancé dans un projet de découverte des services d&amp;rsquo;AWS (Amazon Web Services). Mon objectif est de connaître les différents services proposés par cet hébergeur mais également de savoir comment les sécuriser.
 Préparer l&amp;rsquo;aventure avec une certification Pour commencer ce périple, j&amp;rsquo;ai passé la certification AWS Certified Cloud Practitioner. Pour la préparer, Amazon met à disposition une plateforme de formation. Une fois le module sélectionné, trois interlocuteurs vont nous présenter les différents services d&amp;rsquo;AWS à travers des vidéos.</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,150 +6,119 @@
     <description>Recent content in Tags on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Développement</title>
       <link>/tags/d%C3%A9veloppement/</link>
       <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
-      
       <guid>/tags/d%C3%A9veloppement/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Git</title>
       <link>/tags/git/</link>
       <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
-      
       <guid>/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AWS</title>
       <link>/tags/aws/</link>
       <pubDate>Tue, 12 Jan 2021 22:35:40 +0100</pubDate>
-      
       <guid>/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hardening</title>
       <link>/tags/hardening/</link>
       <pubDate>Tue, 12 Jan 2021 22:35:40 +0100</pubDate>
-      
       <guid>/tags/hardening/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Retex</title>
       <link>/tags/retex/</link>
       <pubDate>Sun, 09 Feb 2020 12:35:40 +0100</pubDate>
-      
       <guid>/tags/retex/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ISO 27001</title>
       <link>/tags/iso-27001/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
-      
       <guid>/tags/iso-27001/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>REX</title>
       <link>/tags/rex/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
-      
       <guid>/tags/rex/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SMSI</title>
       <link>/tags/smsi/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
-      
       <guid>/tags/smsi/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Challenge</title>
       <link>/tags/challenge/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
-      
       <guid>/tags/challenge/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OSINT</title>
       <link>/tags/osint/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
-      
       <guid>/tags/osint/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Write-up</title>
       <link>/tags/write-up/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
-      
       <guid>/tags/write-up/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Analyse de risques</title>
       <link>/tags/analyse-de-risques/</link>
       <pubDate>Mon, 10 Jun 2019 22:35:40 +0100</pubDate>
-      
       <guid>/tags/analyse-de-risques/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Blockchain</title>
       <link>/tags/blockchain/</link>
       <pubDate>Mon, 10 Jun 2019 22:35:40 +0100</pubDate>
-      
       <guid>/tags/blockchain/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Astuces</title>
       <link>/tags/astuces/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
-      
       <guid>/tags/astuces/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cartographie</title>
       <link>/tags/cartographie/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
-      
       <guid>/tags/cartographie/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Gestion des tâches</title>
       <link>/tags/gestion-des-t%C3%A2ches/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/tags/gestion-des-t%C3%A2ches/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

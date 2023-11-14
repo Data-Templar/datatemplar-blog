@@ -6,15 +6,14 @@
     <description>Recent content in Gestion des tâches on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 27 Jan 2019 22:35:40 +0100</lastBuildDate><atom:link href="/tags/gestion-des-t%C3%A2ches/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jan 2019 22:35:40 +0100</lastBuildDate>
+    <atom:link href="/tags/gestion-des-t%C3%A2ches/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimiser la gestion des tâches dans Outlook</title>
       <link>/outlookmanagement/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/outlookmanagement/</guid>
       <description>Travaillant principalement en régie dans des environnements restreints en termes de droits et d&amp;rsquo;applications, je dois adapter ma gestion des tâches. Par tâches, j&amp;rsquo;entends toutes les actions que je dois réaliser au quotidien : répondre à un mail, chercher des informations, relancer quelqu&amp;rsquo;un, suivre un point. La suite office étant présente majoritairement dans mes environnements de travail, je me suis concentré sur cet outil, principalement Outlook puisqu&amp;rsquo;il s&amp;rsquo;agit de la plateforme de communication principale (client mail).</description>
     </item>
-    
   </channel>
 </rss>

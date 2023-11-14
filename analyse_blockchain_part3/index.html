@@ -5,16 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="generator" content="Hugo 0.80.0" />
-  <link rel="canonical" href="/analyse_blockchain_part3/">
+  <meta name="generator" content="Hugo 0.120.4">
+  <link rel="canonical" href="/analyse_blockchain_part3/" />
 
+  
+    
+    <meta name="description" content="Dans ce dernier article sur l’analyse des risques d’une blockchain (partie 1, partie 2) je vais me concentrer sur les attaques liées à l’environnement de la blockchain. Je qualifie les éléments de l’environnement tout ce qui gravite autour de l’utilisation de la blockchain mais qui n’est pas directement lié au logiciel.
+Attaque sur le portefeuille Le portefeuille est l’application qui permet d’initier des échanges sur la blockchain. Il a pour objectif de garantir la confidentialité de vos clefs privées qui permettent de signer vos transactions.">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> 
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> 
+  <link rel="manifest" href="/site.webmanifest"> 
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"> 
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
@@ -22,6 +26,24 @@
     body {
       visibility: hidden;
       opacity: 0;
+    }
+  </style>
+
+  <style id="darkTheme">
+    .intro-and-nav,
+    .main-and-footer {
+      filter: invert(100%);
+    }
+
+    * {
+      background-color: inherit
+    }
+
+    img:not([src*=".svg"]),
+    .colors,
+    iframe,
+    .demo-container {
+      filter: invert(100%);
     }
   </style>
 
@@ -151,7 +173,12 @@
         href="/"
         aria-label="Data Templar home page"
       >
-        <img src="/images/logo.svg" alt="">
+        
+          <img 
+            src="/images/logo.svg" 
+            alt="Logo"
+          >
+        
       </a>
       <p class="library-desc">
         
@@ -161,7 +188,7 @@
   <h2 class="vh"></h2>
   <button id="menu-button" aria-expanded="false">
     <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
-      <use xlink:href="#menu"></use>
+      <use href="#menu"></use>
     </svg>
     
   </button>
@@ -175,7 +202,7 @@
       
       <a href="/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
+          <use href="#bookmark"></use>
         </svg>
         <span class="text">Home</span>
       </a>
@@ -188,7 +215,7 @@
       
       <a href="/post/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
+          <use href="#bookmark"></use>
         </svg>
         <span class="text">Blog</span>
       </a>
@@ -201,7 +228,7 @@
       
       <a href="/publications" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
+          <use href="#bookmark"></use>
         </svg>
         <span class="text">Publications</span>
       </a>
@@ -214,7 +241,7 @@
       
       <a href="/veille" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
+          <use href="#bookmark"></use>
         </svg>
         <span class="text">Listes des sources veille</span>
       </a>
@@ -227,7 +254,7 @@
       
       <a href="/apropos/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
+          <use href="#bookmark"></use>
         </svg>
         <span class="text">A propos</span>
       </a>
@@ -240,7 +267,7 @@
       
       <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
+          <use href="#bookmark"></use>
         </svg>
         <span class="text">Tags</span>
       </a>
@@ -253,7 +280,7 @@
       
       <a href="/mentions-legales/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
+          <use href="#bookmark"></use>
         </svg>
         <span class="text">Mentions légales</span>
       </a>
@@ -271,7 +298,7 @@
   <main id="main">
     <h1>
       <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-        <use xlink:href="#bookmark"></use>
+        <use href="#bookmark"></use>
       </svg>
       Analyse de risques d&#39;une blockchain - Partie 3
     </h1>
@@ -292,7 +319,7 @@
           
             <li>
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
+                <use href="#tag"></use>
               </svg>
               
               <a href="/tags/blockchain/">Blockchain</a>
@@ -300,7 +327,7 @@
           
             <li>
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
+                <use href="#tag"></use>
               </svg>
               
               <a href="/tags/analyse-de-risques/">Analyse de risques</a>
@@ -309,39 +336,9 @@
         </ul>
       </div>
     
-    
-    
-      
-
-  <nav class="toc" aria-labelledby="toc-heading">
-    <h2 id="toc-heading"></h2>
-    <ol>
-      
-        <li>
-          
-          
-          
-          
-          <a href="#attaque-sur-le-portefeuille">
-            Attaque sur le portefeuille
-          </a>
-        </li>
-      
-        <li>
-          
-          
-          
-          
-          <a href="#contraintes-l%c3%a9gales">
-            Contraintes légales
-          </a>
-        </li>
-      
-    </ol>
-  </nav>
-
 
     
+
 
     <p>Dans ce dernier article sur l’analyse des risques d’une blockchain (<a href="/analyse_blockchain_part1/">partie 1</a>, <a href="/analyse_blockchain_part2/">partie 2</a>) je vais me concentrer sur les attaques liées à l’environnement de la blockchain. Je qualifie les éléments de l’environnement tout ce qui gravite autour de l’utilisation de la blockchain mais qui n’est pas directement lié au logiciel.</p>
 <h2 id="attaque-sur-le-portefeuille">Attaque sur le portefeuille</h2>
@@ -360,6 +357,8 @@ Envisageons un attaquant obstiné qui souhaite absolument récupérer le contenu
   <div id="disqus-container">
   
 </div>
+
+  
 
 
           

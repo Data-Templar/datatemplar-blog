@@ -6,162 +6,131 @@
     <description>Recent content in Accueil on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nettoyage de l&#39;historique Git</title>
       <link>/gitreset/</link>
       <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
-      
       <guid>/gitreset/</guid>
       <description>Lorsque je fais des modifications sur le blog, j&amp;rsquo;ai souvent des misères avec l&amp;rsquo;outil d&amp;rsquo;auto déploiement Circle CI. En général, il s&amp;rsquo;agit d&amp;rsquo;une nouvelle version de l&amp;rsquo;API que je n&amp;rsquo;ai pas prise en compte. Puisque je ne peux tester mes run uniquement lorsque je fais le push d&amp;rsquo;un nouveau commit, mon historique ressemble rapidement au screenshot ci-dessous.
 De nombreux commit ne sont pas nécessaires et viennent polluer mon historique. Dans le cas de la capture d&amp;rsquo;écran, les 10 derniers commits sont à jeter.</description>
     </item>
-    
     <item>
       <title>Début de quête à la découverte d&#39;AWS</title>
       <link>/creationcompteaws/</link>
       <pubDate>Tue, 12 Jan 2021 22:35:40 +0100</pubDate>
-      
       <guid>/creationcompteaws/</guid>
       <description>En ce début d&amp;rsquo;année 2021, je me suis lancé dans un projet de découverte des services d&amp;rsquo;AWS (Amazon Web Services). Mon objectif est de connaître les différents services proposés par cet hébergeur mais également de savoir comment les sécuriser.
 Préparer l&amp;rsquo;aventure avec une certification Pour commencer ce périple, j&amp;rsquo;ai passé la certification AWS Certified Cloud Practitioner. Pour la préparer, Amazon met à disposition une plateforme de formation. Une fois le module sélectionné, trois interlocuteurs vont nous présenter les différents services d&amp;rsquo;AWS à travers des vidéos.</description>
     </item>
-    
     <item>
       <title>Résumé du Microsoft Digital Defense Report 2020</title>
       <link>/retex_microsoft_2020/</link>
       <pubDate>Sun, 09 Feb 2020 12:35:40 +0100</pubDate>
-      
       <guid>/retex_microsoft_2020/</guid>
       <description>En ce début d&amp;rsquo;année, nous déclarons souvent des prémonitions sur les tendances à venir dans le domaine de la cyber sécurité. Quelles sont les nouvelles attaques que nous allons rencontrer ? Y-a-t-il un nouveau domaine qui sera touché ? Est-ce que nous verrons de vieilles attaques resurgir&amp;hellip;? Malheureusement dans cet exercice divinatoire, nous oublions souvent de regarder en arrière. Dans cet exercice de mémoire, je pense qu&amp;rsquo;il est important de regarder les rapports des acteurs globaux Amazon, Google, Microsoft ou OVH pour le made in France.</description>
     </item>
-    
     <item>
       <title>empty</title>
       <link>/fichierstemp/</link>
       <pubDate>Wed, 30 Oct 2019 22:35:40 +0100</pubDate>
-      
       <guid>/fichierstemp/</guid>
       <description>empty</description>
     </item>
-    
     <item>
       <title>Publications</title>
       <link>/publications/</link>
       <pubDate>Wed, 30 Oct 2019 22:35:40 +0100</pubDate>
-      
       <guid>/publications/</guid>
       <description>Vous trouverez ici l&amp;rsquo;ensemble des publications publiques que j&amp;rsquo;ai réalisé ou bien des interviews auquel j&amp;rsquo;ai eu la chance de participer.
-2020  Rapport rédigé dans le cadre de l&amp;rsquo;association les jeunes de l&amp;rsquo;IHEDN, avec Eric B., Alison K. et Lucille R.. Il présente le modèle de certification européen pour la cybersécurité. Rapport modèle de certification cyber UE  2019   Présentation des différentes briques de sécurité d&amp;rsquo;un système d&amp;rsquo;information, niveau débutant.</description>
+2020 Rapport rédigé dans le cadre de l&amp;rsquo;association les jeunes de l&amp;rsquo;IHEDN, avec Eric B., Alison K. et Lucille R.. Il présente le modèle de certification européen pour la cybersécurité. Rapport modèle de certification cyber UE 2019 Présentation des différentes briques de sécurité d&amp;rsquo;un système d&amp;rsquo;information, niveau débutant. Briques de sécurité du SI</description>
     </item>
-    
     <item>
       <title>Retour d&#39;expérience ISO 27001 implémenteur</title>
       <link>/iso27001imp/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
-      
       <guid>/iso27001imp/</guid>
       <description>Vous avez maintenant quelques années d&amp;rsquo;expériences dans un domaine. Il est temps de faire reconnaitre à vos pairs cette expertise. La meilleure option selon moi reste la certification. C&amp;rsquo;est dans cet objectif, que je me suis offert la formation ISO 27001 lead implementer chez HS2. L&amp;rsquo;objectif était de valider mes acquis à travers cette certification internationale.
 Pour rappel l&amp;rsquo;ISO 27001 -comme j&amp;rsquo;aime le résumer- c&amp;rsquo;est une roue de deming. Votre processus d&amp;rsquo;amélioration continue en termes de sécurité informatique sera donc encadré par cette norme.</description>
     </item>
-    
     <item>
       <title>Write-up: Spying Challenge 2019</title>
       <link>/spyingchallenge2019/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
-      
       <guid>/spyingchallenge2019/</guid>
       <description>Le Spying Challenge est une épreuve organisée la semaine précédente de l&amp;rsquo;événement &amp;ldquo;Le Hack&amp;rdquo;. Notre équipe des Jeunes de l&amp;rsquo;IHEDN a fini seconde. Je vous propose de découvrir ensemble les détails de ces épreuves et les techniques que nous avons mis en place pour les résoudre. L&amp;rsquo;épreuve démarre une semaine avant &amp;ldquo;Le Hack&amp;rdquo; par la réception de notre ordre de mission par mail.
 La mission Chers agents, Vous n’êtes pas sans savoir que le mouvement des Bérets Jaunes a pris une ampleur considérable dans notre pays ces derniers mois.</description>
     </item>
-    
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 3</title>
       <link>/analyse_blockchain_part3/</link>
       <pubDate>Mon, 10 Jun 2019 22:35:40 +0100</pubDate>
-      
       <guid>/analyse_blockchain_part3/</guid>
       <description>Dans ce dernier article sur l’analyse des risques d’une blockchain (partie 1, partie 2) je vais me concentrer sur les attaques liées à l’environnement de la blockchain. Je qualifie les éléments de l’environnement tout ce qui gravite autour de l’utilisation de la blockchain mais qui n’est pas directement lié au logiciel.
 Attaque sur le portefeuille Le portefeuille est l&amp;rsquo;application qui permet d&amp;rsquo;initier des échanges sur la blockchain. Il a pour objectif de garantir la confidentialité de vos clefs privées qui permettent de signer vos transactions.</description>
     </item>
-    
     <item>
       <title>Veille</title>
       <link>/veille/</link>
       <pubDate>Wed, 10 Apr 2019 22:35:40 +0100</pubDate>
-      
       <guid>/veille/</guid>
       <description>La cybersécurité est un sujet en constante évolution. Il est donc nécessaire de mettre ces connaissances régulièrement à jour. Je vous propose ci-dessous une liste de blogs, site d&amp;rsquo;informations, podcasts qui traitent de la cybersécurité. J&amp;rsquo;ai également ajouté quelques associations qui sont parties prenantes dans l&amp;rsquo;écosystème français.
 N&amp;rsquo;hésitez pas à la compléter en participant à l&amp;rsquo;alimentation de cette liste sur Github.
-Filtres:
-LanguefrenLevelDébutantIntermédiaireExpertTypeAssociationEvénementFormationNewsletterPodcastVideoWebsiteBlogMagazineRechercheTypeTitreWebsiteLangueLocalisationLevelPodcast7 minute securityhttps://7minsec.</description>
+Filtres:
+LanguefrenLevelDébutantIntermédiaireExpertTypeAssociationEvénementFormationNewsletterPodcastVideoWebsiteBlogMagazineRechercheTypeTitreWebsiteLangueLocalisationLevelPodcast7 minute securityhttps://7minsec.</description>
     </item>
-    
     <item>
       <title>Upload</title>
       <link>/upload/upload/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>/upload/upload/</guid>
-      <description>/* Upload image dialog */.uploadimage-dragndrop { border: 2px dashed #DDD; margin: 20px 0; padding: 50px 20px; text-align: center; color: #DDD; }.uploadimage-text { font-size: 32px; margin-bottom: 20px; }.uploadimage-input { margin: 20px 0; }.uploadimage-upload { background: #EEE; margin: 4px 0; }.uploadimage-uploadcompleted { background: #d1f4ac; }.uploadimage-fileinfo { padding: 5px; font-size: 11px; position: relative; }.uploadimage-progresspct { position: absolute; top: 5px; right: 5px; }.uploadimage-progress { background: #999; }.</description>
+      <description>To upload a file to the server use the interface belowDrag files hereOr, if you prefer...</description>
     </item>
-    
     <item>
       <title>Cartographie par consolidation de référentiels</title>
       <link>/cartographie-par-consolidation-referentiel/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
-      
       <guid>/cartographie-par-consolidation-referentiel/</guid>
       <description>Quand vous commencer une mission en régie ou pour de l&amp;rsquo;audit, vous aurez besoin de préciser le périmètre sur lequel vous allez travailler. Il arrive que celui-ci ne soit pas fiable ou clair. Dans ce cas réaliser une cartographie des actifs sur lesquels vous allez travailler peu être une bonne idée. Je vous propose une méthodologie à suivre pour réaliser cette cartographie à travers le recoupement de différents référentiels actuellement en place.</description>
     </item>
-    
     <item>
       <title>A propos</title>
       <link>/apropos/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/apropos/</guid>
       <description>En quête d’informations ou d’approfondissement de vos connaissances en cybersécurité ou tout simplement pour découvrir mon travail, vous êtes le/la bienvenue ! Vous pourrez lire des articles liés à la cybersécurité avec une appétence technique compréhensible pour tous.
 Ma vision : La cybersécurité est l’art de protéger un système d’informations. Vous aurez besoin de deux compétences pour protéger votre système : La gestions des risques et la maitrise des technologies. De la même manière qu’un pilote maitrise son avion, connaitre le système sur lequel on travaille est indispensable pour identifier les mesures de sécurité à mettre en place.</description>
     </item>
-    
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 1</title>
       <link>/analyse_blockchain_part1/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/analyse_blockchain_part1/</guid>
       <description>Depuis l’explosion du cours du Bitcoin pendant l’été 2017, « blockchain » est devenu le mot à la mode dans le domaine de la technologie. Le Bitcoin n’est qu’une cryptomonnaie parmi d’autres qui repose sur la technologie de la blockchain. Il est possible d’envisager d’autres utilisations de la blockchain que de générer des tokens financier. Dans cet article je vais me concentrer sur la technologie blockchain et non sur la spécificité des cryptomonnaies.</description>
     </item>
-    
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 2</title>
       <link>/analyse_blockchain_part2/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/analyse_blockchain_part2/</guid>
       <description>Dans la première partie de cet article, nous avons présenté un système blockchain. Intéressons-nous aux différents risques qui pèsent sur elle. Les risques sont répartis en 3 catégories qui sont les bases d’un système blockchain. La première vient du fait qu’il s’agisse d’un logiciel. La seconde est du au système décentralisé qui doit peser sur la blockchain et le dernier concerne l’environnement autours du logiciel.
 Risques logiciels Vulnérabilité du code Une blockchain repose avant tout sur un programme présent sur chaque ordinateur qui décrit les fonctions de la blockchain.</description>
     </item>
-    
     <item>
       <title>Mentions légale</title>
       <link>/mentions-legales/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/mentions-legales/</guid>
       <description>1. Présentation du site. En vertu de l&amp;rsquo;article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l&amp;rsquo;économie numérique, il est précisé aux utilisateurs du site datatemplar.fr l&amp;rsquo;identité des différents intervenants dans le cadre de sa réalisation et de son suivi :
 Propriétaire : SASU Data Templar – 84140837000010 – 55 Rue de Stalingrad 92000 Nanterre Président / Webmaster : Quentin BEDENEAU - quentin[a]domaine.fr Hébergeur : OVH – 2 rue Kellermann - 59100 Roubaix - France Le modèle de mentions légales est offert par Subdelirium.</description>
     </item>
-    
     <item>
       <title>Optimiser la gestion des tâches dans Outlook</title>
       <link>/outlookmanagement/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/outlookmanagement/</guid>
       <description>Travaillant principalement en régie dans des environnements restreints en termes de droits et d&amp;rsquo;applications, je dois adapter ma gestion des tâches. Par tâches, j&amp;rsquo;entends toutes les actions que je dois réaliser au quotidien : répondre à un mail, chercher des informations, relancer quelqu&amp;rsquo;un, suivre un point. La suite office étant présente majoritairement dans mes environnements de travail, je me suis concentré sur cet outil, principalement Outlook puisqu&amp;rsquo;il s&amp;rsquo;agit de la plateforme de communication principale (client mail).</description>
     </item>
-    
   </channel>
 </rss>

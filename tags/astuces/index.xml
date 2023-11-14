@@ -6,24 +6,21 @@
     <description>Recent content in Astuces on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 31 Jan 2019 22:35:18 +0100</lastBuildDate><atom:link href="/tags/astuces/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Jan 2019 22:35:18 +0100</lastBuildDate>
+    <atom:link href="/tags/astuces/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cartographie par consolidation de référentiels</title>
       <link>/cartographie-par-consolidation-referentiel/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
-      
       <guid>/cartographie-par-consolidation-referentiel/</guid>
       <description>Quand vous commencer une mission en régie ou pour de l&amp;rsquo;audit, vous aurez besoin de préciser le périmètre sur lequel vous allez travailler. Il arrive que celui-ci ne soit pas fiable ou clair. Dans ce cas réaliser une cartographie des actifs sur lesquels vous allez travailler peu être une bonne idée. Je vous propose une méthodologie à suivre pour réaliser cette cartographie à travers le recoupement de différents référentiels actuellement en place.</description>
     </item>
-    
     <item>
       <title>Optimiser la gestion des tâches dans Outlook</title>
       <link>/outlookmanagement/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
-      
       <guid>/outlookmanagement/</guid>
       <description>Travaillant principalement en régie dans des environnements restreints en termes de droits et d&amp;rsquo;applications, je dois adapter ma gestion des tâches. Par tâches, j&amp;rsquo;entends toutes les actions que je dois réaliser au quotidien : répondre à un mail, chercher des informations, relancer quelqu&amp;rsquo;un, suivre un point. La suite office étant présente majoritairement dans mes environnements de travail, je me suis concentré sur cet outil, principalement Outlook puisqu&amp;rsquo;il s&amp;rsquo;agit de la plateforme de communication principale (client mail).</description>
     </item>
-    
   </channel>
 </rss>
