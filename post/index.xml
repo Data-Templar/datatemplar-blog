@@ -2,104 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Data Templar</title>
-    <link>https://data-templar.github.io/datatemplar-blog/post/</link>
+    <link>datatemplar.fr/post/</link>
     <description>Recent content in Posts on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate><atom:link href="https://data-templar.github.io/datatemplar-blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate><atom:link href="datatemplar.fr/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nettoyage de l&#39;historique Git</title>
-      <link>https://data-templar.github.io/datatemplar-blog/gitreset/</link>
+      <link>datatemplar.fr/gitreset/</link>
       <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/gitreset/</guid>
+      <guid>datatemplar.fr/gitreset/</guid>
       <description>Lorsque je fais des modifications sur le blog, j&amp;rsquo;ai souvent des misères avec l&amp;rsquo;outil d&amp;rsquo;auto déploiement Circle CI. En général, il s&amp;rsquo;agit d&amp;rsquo;une nouvelle version de l&amp;rsquo;API que je n&amp;rsquo;ai pas prise en compte. Puisque je ne peux tester mes run uniquement lorsque je fais le push d&amp;rsquo;un nouveau commit, mon historique ressemble rapidement au screenshot ci-dessous.
 De nombreux commit ne sont pas nécessaires et viennent polluer mon historique. Dans le cas de la capture d&amp;rsquo;écran, les 10 derniers commits sont à jeter.</description>
     </item>
     
     <item>
       <title>Début de quête à la découverte d&#39;AWS</title>
-      <link>https://data-templar.github.io/datatemplar-blog/creationcompteaws/</link>
+      <link>datatemplar.fr/creationcompteaws/</link>
       <pubDate>Tue, 12 Jan 2021 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/creationcompteaws/</guid>
+      <guid>datatemplar.fr/creationcompteaws/</guid>
       <description>En ce début d&amp;rsquo;année 2021, je me suis lancé dans un projet de découverte des services d&amp;rsquo;AWS (Amazon Web Services). Mon objectif est de connaître les différents services proposés par cet hébergeur mais également de savoir comment les sécuriser.
 Préparer l&amp;rsquo;aventure avec une certification Pour commencer ce périple, j&amp;rsquo;ai passé la certification AWS Certified Cloud Practitioner. Pour la préparer, Amazon met à disposition une plateforme de formation. Une fois le module sélectionné, trois interlocuteurs vont nous présenter les différents services d&amp;rsquo;AWS à travers des vidéos.</description>
     </item>
     
     <item>
       <title>Résumé du Microsoft Digital Defense Report 2020</title>
-      <link>https://data-templar.github.io/datatemplar-blog/retex_microsoft_2020/</link>
+      <link>datatemplar.fr/retex_microsoft_2020/</link>
       <pubDate>Sun, 09 Feb 2020 12:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/retex_microsoft_2020/</guid>
+      <guid>datatemplar.fr/retex_microsoft_2020/</guid>
       <description>En ce début d&amp;rsquo;année, nous déclarons souvent des prémonitions sur les tendances à venir dans le domaine de la cyber sécurité. Quelles sont les nouvelles attaques que nous allons rencontrer ? Y-a-t-il un nouveau domaine qui sera touché ? Est-ce que nous verrons de vieilles attaques resurgir&amp;hellip;? Malheureusement dans cet exercice divinatoire, nous oublions souvent de regarder en arrière. Dans cet exercice de mémoire, je pense qu&amp;rsquo;il est important de regarder les rapports des acteurs globaux Amazon, Google, Microsoft ou OVH pour le made in France.</description>
     </item>
     
     <item>
       <title>Retour d&#39;expérience ISO 27001 implémenteur</title>
-      <link>https://data-templar.github.io/datatemplar-blog/iso27001imp/</link>
+      <link>datatemplar.fr/iso27001imp/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/iso27001imp/</guid>
+      <guid>datatemplar.fr/iso27001imp/</guid>
       <description>Vous avez maintenant quelques années d&amp;rsquo;expériences dans un domaine. Il est temps de faire reconnaitre à vos pairs cette expertise. La meilleure option selon moi reste la certification. C&amp;rsquo;est dans cet objectif, que je me suis offert la formation ISO 27001 lead implementer chez HS2. L&amp;rsquo;objectif était de valider mes acquis à travers cette certification internationale.
 Pour rappel l&amp;rsquo;ISO 27001 -comme j&amp;rsquo;aime le résumer- c&amp;rsquo;est une roue de deming. Votre processus d&amp;rsquo;amélioration continue en termes de sécurité informatique sera donc encadré par cette norme.</description>
     </item>
     
     <item>
       <title>Write-up: Spying Challenge 2019</title>
-      <link>https://data-templar.github.io/datatemplar-blog/spyingchallenge2019/</link>
+      <link>datatemplar.fr/spyingchallenge2019/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/spyingchallenge2019/</guid>
+      <guid>datatemplar.fr/spyingchallenge2019/</guid>
       <description>Le Spying Challenge est une épreuve organisée la semaine précédente de l&amp;rsquo;événement &amp;ldquo;Le Hack&amp;rdquo;. Notre équipe des Jeunes de l&amp;rsquo;IHEDN a fini seconde. Je vous propose de découvrir ensemble les détails de ces épreuves et les techniques que nous avons mis en place pour les résoudre. L&amp;rsquo;épreuve démarre une semaine avant &amp;ldquo;Le Hack&amp;rdquo; par la réception de notre ordre de mission par mail.
 La mission Chers agents, Vous n’êtes pas sans savoir que le mouvement des Bérets Jaunes a pris une ampleur considérable dans notre pays ces derniers mois.</description>
     </item>
     
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 3</title>
-      <link>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part3/</link>
+      <link>datatemplar.fr/analyse_blockchain_part3/</link>
       <pubDate>Mon, 10 Jun 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part3/</guid>
+      <guid>datatemplar.fr/analyse_blockchain_part3/</guid>
       <description>Dans ce dernier article sur l’analyse des risques d’une blockchain (partie 1, partie 2) je vais me concentrer sur les attaques liées à l’environnement de la blockchain. Je qualifie les éléments de l’environnement tout ce qui gravite autour de l’utilisation de la blockchain mais qui n’est pas directement lié au logiciel.
 Attaque sur le portefeuille Le portefeuille est l&amp;rsquo;application qui permet d&amp;rsquo;initier des échanges sur la blockchain. Il a pour objectif de garantir la confidentialité de vos clefs privées qui permettent de signer vos transactions.</description>
     </item>
     
     <item>
       <title>Cartographie par consolidation de référentiels</title>
-      <link>https://data-templar.github.io/datatemplar-blog/cartographie-par-consolidation-referentiel/</link>
+      <link>datatemplar.fr/cartographie-par-consolidation-referentiel/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/cartographie-par-consolidation-referentiel/</guid>
+      <guid>datatemplar.fr/cartographie-par-consolidation-referentiel/</guid>
       <description>Quand vous commencer une mission en régie ou pour de l&amp;rsquo;audit, vous aurez besoin de préciser le périmètre sur lequel vous allez travailler. Il arrive que celui-ci ne soit pas fiable ou clair. Dans ce cas réaliser une cartographie des actifs sur lesquels vous allez travailler peu être une bonne idée. Je vous propose une méthodologie à suivre pour réaliser cette cartographie à travers le recoupement de différents référentiels actuellement en place.</description>
     </item>
     
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 1</title>
-      <link>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part1/</link>
+      <link>datatemplar.fr/analyse_blockchain_part1/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part1/</guid>
+      <guid>datatemplar.fr/analyse_blockchain_part1/</guid>
       <description>Depuis l’explosion du cours du Bitcoin pendant l’été 2017, « blockchain » est devenu le mot à la mode dans le domaine de la technologie. Le Bitcoin n’est qu’une cryptomonnaie parmi d’autres qui repose sur la technologie de la blockchain. Il est possible d’envisager d’autres utilisations de la blockchain que de générer des tokens financier. Dans cet article je vais me concentrer sur la technologie blockchain et non sur la spécificité des cryptomonnaies.</description>
     </item>
     
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 2</title>
-      <link>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part2/</link>
+      <link>datatemplar.fr/analyse_blockchain_part2/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part2/</guid>
+      <guid>datatemplar.fr/analyse_blockchain_part2/</guid>
       <description>Dans la première partie de cet article, nous avons présenté un système blockchain. Intéressons-nous aux différents risques qui pèsent sur elle. Les risques sont répartis en 3 catégories qui sont les bases d’un système blockchain. La première vient du fait qu’il s’agisse d’un logiciel. La seconde est du au système décentralisé qui doit peser sur la blockchain et le dernier concerne l’environnement autours du logiciel.
 Risques logiciels Vulnérabilité du code Une blockchain repose avant tout sur un programme présent sur chaque ordinateur qui décrit les fonctions de la blockchain.</description>
     </item>
     
     <item>
       <title>Optimiser la gestion des tâches dans Outlook</title>
-      <link>https://data-templar.github.io/datatemplar-blog/outlookmanagement/</link>
+      <link>datatemplar.fr/outlookmanagement/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/outlookmanagement/</guid>
+      <guid>datatemplar.fr/outlookmanagement/</guid>
       <description>Travaillant principalement en régie dans des environnements restreints en termes de droits et d&amp;rsquo;applications, je dois adapter ma gestion des tâches. Par tâches, j&amp;rsquo;entends toutes les actions que je dois réaliser au quotidien : répondre à un mail, chercher des informations, relancer quelqu&amp;rsquo;un, suivre un point. La suite office étant présente majoritairement dans mes environnements de travail, je me suis concentré sur cet outil, principalement Outlook puisqu&amp;rsquo;il s&amp;rsquo;agit de la plateforme de communication principale (client mail).</description>
     </item>
     

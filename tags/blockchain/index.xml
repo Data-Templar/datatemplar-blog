@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchain on Data Templar</title>
-    <link>https://data-templar.github.io/datatemplar-blog/tags/blockchain/</link>
+    <link>datatemplar.fr/tags/blockchain/</link>
     <description>Recent content in Blockchain on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 10 Jun 2019 22:35:40 +0100</lastBuildDate><atom:link href="https://data-templar.github.io/datatemplar-blog/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jun 2019 22:35:40 +0100</lastBuildDate><atom:link href="datatemplar.fr/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 3</title>
-      <link>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part3/</link>
+      <link>datatemplar.fr/analyse_blockchain_part3/</link>
       <pubDate>Mon, 10 Jun 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part3/</guid>
+      <guid>datatemplar.fr/analyse_blockchain_part3/</guid>
       <description>Dans ce dernier article sur l’analyse des risques d’une blockchain (partie 1, partie 2) je vais me concentrer sur les attaques liées à l’environnement de la blockchain. Je qualifie les éléments de l’environnement tout ce qui gravite autour de l’utilisation de la blockchain mais qui n’est pas directement lié au logiciel.
 Attaque sur le portefeuille Le portefeuille est l&amp;rsquo;application qui permet d&amp;rsquo;initier des échanges sur la blockchain. Il a pour objectif de garantir la confidentialité de vos clefs privées qui permettent de signer vos transactions.</description>
     </item>
     
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 1</title>
-      <link>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part1/</link>
+      <link>datatemplar.fr/analyse_blockchain_part1/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part1/</guid>
+      <guid>datatemplar.fr/analyse_blockchain_part1/</guid>
       <description>Depuis l’explosion du cours du Bitcoin pendant l’été 2017, « blockchain » est devenu le mot à la mode dans le domaine de la technologie. Le Bitcoin n’est qu’une cryptomonnaie parmi d’autres qui repose sur la technologie de la blockchain. Il est possible d’envisager d’autres utilisations de la blockchain que de générer des tokens financier. Dans cet article je vais me concentrer sur la technologie blockchain et non sur la spécificité des cryptomonnaies.</description>
     </item>
     
     <item>
       <title>Analyse de risques d&#39;une blockchain - Partie 2</title>
-      <link>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part2/</link>
+      <link>datatemplar.fr/analyse_blockchain_part2/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part2/</guid>
+      <guid>datatemplar.fr/analyse_blockchain_part2/</guid>
       <description>Dans la première partie de cet article, nous avons présenté un système blockchain. Intéressons-nous aux différents risques qui pèsent sur elle. Les risques sont répartis en 3 catégories qui sont les bases d’un système blockchain. La première vient du fait qu’il s’agisse d’un logiciel. La seconde est du au système décentralisé qui doit peser sur la blockchain et le dernier concerne l’environnement autours du logiciel.
 Risques logiciels Vulnérabilité du code Une blockchain repose avant tout sur un programme présent sur chaque ordinateur qui décrit les fonctions de la blockchain.</description>
     </item>

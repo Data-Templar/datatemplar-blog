@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ISO 27001 on Data Templar</title>
-    <link>https://data-templar.github.io/datatemplar-blog/tags/iso-27001/</link>
+    <link>datatemplar.fr/tags/iso-27001/</link>
     <description>Recent content in ISO 27001 on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 30 Oct 2019 17:35:40 +0100</lastBuildDate><atom:link href="https://data-templar.github.io/datatemplar-blog/tags/iso-27001/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Oct 2019 17:35:40 +0100</lastBuildDate><atom:link href="datatemplar.fr/tags/iso-27001/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Retour d&#39;expérience ISO 27001 implémenteur</title>
-      <link>https://data-templar.github.io/datatemplar-blog/iso27001imp/</link>
+      <link>datatemplar.fr/iso27001imp/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/iso27001imp/</guid>
+      <guid>datatemplar.fr/iso27001imp/</guid>
       <description>Vous avez maintenant quelques années d&amp;rsquo;expériences dans un domaine. Il est temps de faire reconnaitre à vos pairs cette expertise. La meilleure option selon moi reste la certification. C&amp;rsquo;est dans cet objectif, que je me suis offert la formation ISO 27001 lead implementer chez HS2. L&amp;rsquo;objectif était de valider mes acquis à travers cette certification internationale.
 Pour rappel l&amp;rsquo;ISO 27001 -comme j&amp;rsquo;aime le résumer- c&amp;rsquo;est une roue de deming. Votre processus d&amp;rsquo;amélioration continue en termes de sécurité informatique sera donc encadré par cette norme.</description>
     </item>

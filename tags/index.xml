@@ -2,152 +2,152 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Data Templar</title>
-    <link>https://data-templar.github.io/datatemplar-blog/tags/</link>
+    <link>datatemplar.fr/tags/</link>
     <description>Recent content in Tags on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate><atom:link href="https://data-templar.github.io/datatemplar-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate><atom:link href="datatemplar.fr/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Développement</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/d%C3%A9veloppement/</link>
+      <link>datatemplar.fr/tags/d%C3%A9veloppement/</link>
       <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/d%C3%A9veloppement/</guid>
+      <guid>datatemplar.fr/tags/d%C3%A9veloppement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/git/</link>
+      <link>datatemplar.fr/tags/git/</link>
       <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/git/</guid>
+      <guid>datatemplar.fr/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/aws/</link>
+      <link>datatemplar.fr/tags/aws/</link>
       <pubDate>Tue, 12 Jan 2021 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/aws/</guid>
+      <guid>datatemplar.fr/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hardening</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/hardening/</link>
+      <link>datatemplar.fr/tags/hardening/</link>
       <pubDate>Tue, 12 Jan 2021 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/hardening/</guid>
+      <guid>datatemplar.fr/tags/hardening/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Retex</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/retex/</link>
+      <link>datatemplar.fr/tags/retex/</link>
       <pubDate>Sun, 09 Feb 2020 12:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/retex/</guid>
+      <guid>datatemplar.fr/tags/retex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ISO 27001</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/iso-27001/</link>
+      <link>datatemplar.fr/tags/iso-27001/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/iso-27001/</guid>
+      <guid>datatemplar.fr/tags/iso-27001/</guid>
       <description></description>
     </item>
     
     <item>
       <title>REX</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/rex/</link>
+      <link>datatemplar.fr/tags/rex/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/rex/</guid>
+      <guid>datatemplar.fr/tags/rex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SMSI</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/smsi/</link>
+      <link>datatemplar.fr/tags/smsi/</link>
       <pubDate>Wed, 30 Oct 2019 17:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/smsi/</guid>
+      <guid>datatemplar.fr/tags/smsi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Challenge</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/challenge/</link>
+      <link>datatemplar.fr/tags/challenge/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/challenge/</guid>
+      <guid>datatemplar.fr/tags/challenge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OSINT</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/osint/</link>
+      <link>datatemplar.fr/tags/osint/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/osint/</guid>
+      <guid>datatemplar.fr/tags/osint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Write-up</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/write-up/</link>
+      <link>datatemplar.fr/tags/write-up/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/write-up/</guid>
+      <guid>datatemplar.fr/tags/write-up/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analyse de risques</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/analyse-de-risques/</link>
+      <link>datatemplar.fr/tags/analyse-de-risques/</link>
       <pubDate>Mon, 10 Jun 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/analyse-de-risques/</guid>
+      <guid>datatemplar.fr/tags/analyse-de-risques/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blockchain</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/blockchain/</link>
+      <link>datatemplar.fr/tags/blockchain/</link>
       <pubDate>Mon, 10 Jun 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/blockchain/</guid>
+      <guid>datatemplar.fr/tags/blockchain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Astuces</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/astuces/</link>
+      <link>datatemplar.fr/tags/astuces/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/astuces/</guid>
+      <guid>datatemplar.fr/tags/astuces/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cartographie</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/cartographie/</link>
+      <link>datatemplar.fr/tags/cartographie/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/cartographie/</guid>
+      <guid>datatemplar.fr/tags/cartographie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gestion des tâches</title>
-      <link>https://data-templar.github.io/datatemplar-blog/tags/gestion-des-t%C3%A2ches/</link>
+      <link>datatemplar.fr/tags/gestion-des-t%C3%A2ches/</link>
       <pubDate>Sun, 27 Jan 2019 22:35:40 +0100</pubDate>
       
-      <guid>https://data-templar.github.io/datatemplar-blog/tags/gestion-des-t%C3%A2ches/</guid>
+      <guid>datatemplar.fr/tags/gestion-des-t%C3%A2ches/</guid>
       <description></description>
     </item>
     
