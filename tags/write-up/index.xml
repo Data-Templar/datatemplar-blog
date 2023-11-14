@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Write-up on Data Templar</title>
-    <link>/tags/write-up/</link>
+    <link>https://data-templar.github.io/datatemplar-blog/tags/write-up/</link>
     <description>Recent content in Write-up on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sat, 20 Jul 2019 18:35:40 +0100</lastBuildDate><atom:link href="/tags/write-up/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2019 18:35:40 +0100</lastBuildDate><atom:link href="https://data-templar.github.io/datatemplar-blog/tags/write-up/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Write-up: Spying Challenge 2019</title>
-      <link>/spyingchallenge2019/</link>
+      <link>https://data-templar.github.io/datatemplar-blog/spyingchallenge2019/</link>
       <pubDate>Sat, 20 Jul 2019 18:35:40 +0100</pubDate>
       
-      <guid>/spyingchallenge2019/</guid>
+      <guid>https://data-templar.github.io/datatemplar-blog/spyingchallenge2019/</guid>
       <description>Le Spying Challenge est une épreuve organisée la semaine précédente de l&amp;rsquo;événement &amp;ldquo;Le Hack&amp;rdquo;. Notre équipe des Jeunes de l&amp;rsquo;IHEDN a fini seconde. Je vous propose de découvrir ensemble les détails de ces épreuves et les techniques que nous avons mis en place pour les résoudre. L&amp;rsquo;épreuve démarre une semaine avant &amp;ldquo;Le Hack&amp;rdquo; par la réception de notre ordre de mission par mail.
 La mission Chers agents, Vous n’êtes pas sans savoir que le mouvement des Bérets Jaunes a pris une ampleur considérable dans notre pays ces derniers mois.</description>
     </item>

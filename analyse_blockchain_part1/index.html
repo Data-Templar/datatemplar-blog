@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.80.0" />
-  <link rel="canonical" href="/analyse_blockchain_part1/">
+  <link rel="canonical" href="/datatemplar-blog/analyse_blockchain_part1/">
 
   
 
@@ -25,16 +25,16 @@
     }
   </style>
 
-  <link rel="stylesheet" href="/css/prism.css" media="none" onload="this.media='all';">
+  <link rel="stylesheet" href="/datatemplar-blog/css/prism.css" media="none" onload="this.media='all';">
 
   
   
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/datatemplar-blog/css/styles.css">
 
   
-    <link rel="stylesheet" href="/css/placementimage.css">
+    <link rel="stylesheet" href="/datatemplar-blog/css/placementimage.css">
   
-    <link rel="stylesheet" href="/css/datatablefilter.css">
+    <link rel="stylesheet" href="/datatemplar-blog/css/datatablefilter.css">
   
 
   
@@ -148,10 +148,10 @@
     <div class="intro">
       <a
         class="logo"
-        href="/"
+        href="https://data-templar.github.io/datatemplar-blog/"
         aria-label="Data Templar home page"
       >
-        <img src="/images/logo.svg" alt="">
+        <img src="/datatemplar-blog/images/logo.svg" alt="">
       </a>
       <p class="library-desc">
         
@@ -173,7 +173,7 @@
       
       
       
-      <a href="/" >
+      <a href="/datatemplar-blog/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -186,7 +186,7 @@
       
       
       
-      <a href="/post/" aria-current="page">
+      <a href="/datatemplar-blog/post/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -199,7 +199,7 @@
       
       
       
-      <a href="/publications" >
+      <a href="/datatemplar-blog/publications" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -212,7 +212,7 @@
       
       
       
-      <a href="/veille" >
+      <a href="/datatemplar-blog/veille" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -225,7 +225,7 @@
       
       
       
-      <a href="/apropos/" >
+      <a href="/datatemplar-blog/apropos/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -238,7 +238,7 @@
       
       
       
-      <a href="/tags/" >
+      <a href="/datatemplar-blog/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -251,7 +251,7 @@
       
       
       
-      <a href="/mentions-legales/" >
+      <a href="/datatemplar-blog/mentions-legales/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -295,7 +295,7 @@
                 <use xlink:href="#tag"></use>
               </svg>
               
-              <a href="/tags/blockchain/">Blockchain</a>
+              <a href="/datatemplar-blog/tags/blockchain/">Blockchain</a>
             </li>
           
             <li>
@@ -303,7 +303,7 @@
                 <use xlink:href="#tag"></use>
               </svg>
               
-              <a href="/tags/analyse-de-risques/">Analyse de risques</a>
+              <a href="/datatemplar-blog/tags/analyse-de-risques/">Analyse de risques</a>
             </li>
           
         </ul>
@@ -334,7 +334,7 @@
 <p>Une blockchain repose sur 2 éléments : une partie logicielle et une partie réseau. Le logiciel peut lui-même être divisée en deux catégorie en fonction de l’interaction que nous aurons avec la blockchain.</p>
 <p>Si nous ne sommes qu’un simple utilisateur, nous avons besoin d’une application qui permette de vérifier l’intégrité d’une blockchain partiellement ( cf : arbre de Merkle) et de proposer des transactions sur le réseau, tout en protégeant les clefs cryptographiques privées. Ces applications sont dénommées « wallet » ou « portefeuille ». Au contraire si nous sommes un mineur, nous n’avons pas besoin d’émettre de transaction. Les fonctions utilisées se focaliseront sur la validation des blocs de transactions. Il est important de clairement identifier dès à présent une surcouche qui est utilisée par les mineurs regroupés en « pool ». Afin d’optimiser les chances de validation d’un bloc et d’obtenir la récompense associée, les mineurs regroupent une puissance de calcul répartie à travers plusieurs ordinateurs (soit en datacenter soit de nombreux ordinateurs de particuliers ou un mix). Les échanges dans ce pool reposent sur un autre logiciel qui est propre à chaque pool.</p>
 <p>Une blockchain est aussi un réseau distribué d’ordinateurs. Afin qu’ils puissent communiquer ensemble, ils utilisent un protocole réseau propre à la blockchain. Les échanges P2P (peer to peer), sont normés au niveau applicatif de la couche OSI. Ils permettent donc de reposer sur les infrastructures d’internet avec les avantages et les inconvénients que cela comprend. La base du réseau P2P est de faire confiance à quelques nœuds « centraux » qui vont diffuser les listes des participants au réseau. Il y a donc une centralisation initiale pour chaque acteur qui souhaite participer au réseau. Par la suite la liste des participants s’agrandit et permet d’avoir un réseau décentralisé. Il faut ajouter que la diffusion de cette liste est obligatoire pour un bon fonctionnement de la blockchain. Il est impossible d’y échapper et donc d’être complètement invisible du réseau.</p>
-<p>Maintenant que nous avons étudié le fonctionnement d&rsquo;une blockchain, passons à l&rsquo;analyse de risques dans le <a href="/analyse_blockchain_part2/">prochain article</a>.</p>
+<p>Maintenant que nous avons étudié le fonctionnement d&rsquo;une blockchain, passons à l&rsquo;analyse de risques dans le <a href="https://data-templar.github.io/datatemplar-blog/analyse_blockchain_part2/">prochain article</a>.</p>
 <p>Nota bene: Je souhaite remercier les consultants qui ont travaillé avec moi sur ce sujet. <a href="https://www.linkedin.com/in/hamza-chiadmi-9b145bb1/">Hamza  Chiadmi</a> et Amira A.</p>
 
   </main>
@@ -365,15 +365,15 @@
     </div>
     
 
-<script src="/js/dom-scripts.js"></script>  
+<script src="/datatemplar-blog/js/dom-scripts.js"></script>  
 
-<script src="/js/prism.js"></script>
+<script src="/datatemplar-blog/js/prism.js"></script>
 
 
 
-<script src="/js/search.da4e0819db35e5fc5289562d46cf4a2173684e337d69d997639a24b79ecd6416.js"></script>
+<script src="/datatemplar-blog/js/search.da4e0819db35e5fc5289562d46cf4a2173684e337d69d997639a24b79ecd6416.js"></script>
 
-<link rel="stylesheet" href="/css/search.54f9a90ceddfdaa3e66698090e7d4a7e7a7f217c85bc79c48ed09c8cb3ee6777.css"></link>
+<link rel="stylesheet" href="/datatemplar-blog/css/search.54f9a90ceddfdaa3e66698090e7d4a7e7a7f217c85bc79c48ed09c8cb3ee6777.css"></link>
 
 
 

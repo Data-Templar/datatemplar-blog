@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cartographie on Data Templar</title>
-    <link>/tags/cartographie/</link>
+    <link>https://data-templar.github.io/datatemplar-blog/tags/cartographie/</link>
     <description>Recent content in Cartographie on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 31 Jan 2019 22:35:18 +0100</lastBuildDate><atom:link href="/tags/cartographie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Jan 2019 22:35:18 +0100</lastBuildDate><atom:link href="https://data-templar.github.io/datatemplar-blog/tags/cartographie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cartographie par consolidation de référentiels</title>
-      <link>/cartographie-par-consolidation-referentiel/</link>
+      <link>https://data-templar.github.io/datatemplar-blog/cartographie-par-consolidation-referentiel/</link>
       <pubDate>Thu, 31 Jan 2019 22:35:18 +0100</pubDate>
       
-      <guid>/cartographie-par-consolidation-referentiel/</guid>
+      <guid>https://data-templar.github.io/datatemplar-blog/cartographie-par-consolidation-referentiel/</guid>
       <description>Quand vous commencer une mission en régie ou pour de l&amp;rsquo;audit, vous aurez besoin de préciser le périmètre sur lequel vous allez travailler. Il arrive que celui-ci ne soit pas fiable ou clair. Dans ce cas réaliser une cartographie des actifs sur lesquels vous allez travailler peu être une bonne idée. Je vous propose une méthodologie à suivre pour réaliser cette cartographie à travers le recoupement de différents référentiels actuellement en place.</description>
     </item>
     

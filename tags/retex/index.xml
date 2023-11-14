@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Retex on Data Templar</title>
-    <link>/tags/retex/</link>
+    <link>https://data-templar.github.io/datatemplar-blog/tags/retex/</link>
     <description>Recent content in Retex on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 09 Feb 2020 12:35:40 +0100</lastBuildDate><atom:link href="/tags/retex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Feb 2020 12:35:40 +0100</lastBuildDate><atom:link href="https://data-templar.github.io/datatemplar-blog/tags/retex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Résumé du Microsoft Digital Defense Report 2020</title>
-      <link>/retex_microsoft_2020/</link>
+      <link>https://data-templar.github.io/datatemplar-blog/retex_microsoft_2020/</link>
       <pubDate>Sun, 09 Feb 2020 12:35:40 +0100</pubDate>
       
-      <guid>/retex_microsoft_2020/</guid>
+      <guid>https://data-templar.github.io/datatemplar-blog/retex_microsoft_2020/</guid>
       <description>En ce début d&amp;rsquo;année, nous déclarons souvent des prémonitions sur les tendances à venir dans le domaine de la cyber sécurité. Quelles sont les nouvelles attaques que nous allons rencontrer ? Y-a-t-il un nouveau domaine qui sera touché ? Est-ce que nous verrons de vieilles attaques resurgir&amp;hellip;? Malheureusement dans cet exercice divinatoire, nous oublions souvent de regarder en arrière. Dans cet exercice de mémoire, je pense qu&amp;rsquo;il est important de regarder les rapports des acteurs globaux Amazon, Google, Microsoft ou OVH pour le made in France.</description>
     </item>
     
