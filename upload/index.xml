@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uploads on Data Templar</title>
+    <link>/upload/</link>
+    <description>Recent content in Uploads on Data Templar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="/upload/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upload</title>
+      <link>/upload/upload/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/upload/upload/</guid>
+      <description>/* Upload image dialog */.uploadimage-dragndrop { border: 2px dashed #DDD; margin: 20px 0; padding: 50px 20px; text-align: center; color: #DDD; }.uploadimage-text { font-size: 32px; margin-bottom: 20px; }.uploadimage-input { margin: 20px 0; }.uploadimage-upload { background: #EEE; margin: 4px 0; }.uploadimage-uploadcompleted { background: #d1f4ac; }.uploadimage-fileinfo { padding: 5px; font-size: 11px; position: relative; }.uploadimage-progresspct { position: absolute; top: 5px; right: 5px; }.uploadimage-progress { background: #999; }.</description>
+    </item>
+    
+  </channel>
+</rss>

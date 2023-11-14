@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.80.0" />
+  <link rel="canonical" href="/cartographie-par-consolidation-referentiel/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <style>
+    body {
+      visibility: hidden;
+      opacity: 0;
+    }
+  </style>
+
+  <link rel="stylesheet" href="/css/prism.css" media="none" onload="this.media='all';">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  
+    <link rel="stylesheet" href="/css/placementimage.css">
+  
+    <link rel="stylesheet" href="/css/datatablefilter.css">
+  
+
+  
+  
+  <title>Cartographie par consolidation de référentiels | Data Templar</title>
+</head>
+
+  <body>
+    <a href="#main"></a>
+    <noscript>
+  <style>
+    body {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</noscript>
+
+    <svg style="display: none">
+  <symbol id="bookmark" viewBox="0 0 40 50">
+   <g transform="translate(2266 3206.2)">
+    <path style="stroke:currentColor;stroke-width:3.2637;fill:none" d="m-2262.2-3203.4-.2331 42.195 16.319-16.318 16.318 16.318.2331-42.428z"/>
+   </g>
+  </symbol>
+
+  <symbol id="w3c" viewBox="0 0 127.09899 67.763">
+   <text font-size="83" style="font-size:83px;font-family:Trebuchet;letter-spacing:-12;fill-opacity:0" letter-spacing="-12" y="67.609352" x="-26.782778">W3C</text>
+   <text font-size="83" style="font-size:83px;font-weight:bold;font-family:Trebuchet;fill-opacity:0" y="67.609352" x="153.21722" font-weight="bold">SVG</text>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m33.695.377 12.062 41.016 12.067-41.016h8.731l-19.968 67.386h-.831l-12.48-41.759-12.479 41.759h-.832l-19.965-67.386h8.736l12.061 41.016 8.154-27.618-3.993-13.397h8.737z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m91.355 46.132c0 6.104-1.624 11.234-4.862 15.394-3.248 4.158-7.45 6.237-12.607 6.237-3.882 0-7.263-1.238-10.148-3.702-2.885-2.47-5.02-5.812-6.406-10.022l6.82-2.829c1.001 2.552 2.317 4.562 3.953 6.028 1.636 1.469 3.56 2.207 5.781 2.207 2.329 0 4.3-1.306 5.909-3.911 1.609-2.606 2.411-5.738 2.411-9.401 0-4.049-.861-7.179-2.582-9.399-1.995-2.604-5.129-3.912-9.397-3.912h-3.327v-3.991l11.646-20.133h-14.062l-3.911 6.655h-2.493v-14.976h32.441v4.075l-12.31 21.217c4.324 1.385 7.596 3.911 9.815 7.571 2.22 3.659 3.329 7.953 3.329 12.892z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.21 0 1.414 8.6-5.008 9.583s-1.924-4.064-5.117-6.314c-2.693-1.899-4.447-2.309-7.186-1.746-3.527.73-7.516 4.938-9.258 10.13-2.084 6.21-2.104 9.218-2.178 11.978-.115 4.428.58 7.043.58 7.043s-3.04-5.626-3.011-13.866c.018-5.882.947-11.218 3.666-16.479 2.404-4.627 5.954-7.404 9.114-7.728 3.264-.343 5.848 1.229 7.841 2.938 2.089 1.788 4.213 5.698 4.213 5.698l4.94-9.837z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.82 48.674s-2.208 3.957-3.589 5.48c-1.379 1.524-3.849 4.209-6.896 5.555-3.049 1.343-4.646 1.598-7.661 1.306-3.01-.29-5.807-2.032-6.786-2.764-.979-.722-3.486-2.864-4.897-4.854-1.42-2-3.634-5.995-3.634-5.995s1.233 4.001 2.007 5.699c.442.977 1.81 3.965 3.749 6.572 1.805 2.425 5.315 6.604 10.652 7.545 5.336.945 9.002-1.449 9.907-2.031.907-.578 2.819-2.178 4.032-3.475 1.264-1.351 2.459-3.079 3.116-4.108.487-.758 1.276-2.286 1.276-2.286l-1.276-6.644z"/>
+  </symbol>
+
+  <symbol id="tag" viewBox="0 0 177.16535 177.16535">
+    <g transform="translate(0 -875.2)">
+     <path style="fill-rule:evenodd;stroke-width:0;fill:currentColor" d="m159.9 894.3-68.79 8.5872-75.42 77.336 61.931 60.397 75.429-76.565 6.8495-69.755zm-31.412 31.835a10.813 10.813 0 0 1 1.8443 2.247 10.813 10.813 0 0 1 -3.5174 14.872l-.0445.0275a10.813 10.813 0 0 1 -14.86 -3.5714 10.813 10.813 0 0 1 3.5563 -14.863 10.813 10.813 0 0 1 13.022 1.2884z"/>
+    </g>
+  </symbol>
+
+  <symbol id="balloon" viewBox="0 0 141.73228 177.16535">
+   <g transform="translate(0 -875.2)">
+    <g>
+     <path style="fill:currentColor" d="m68.156 882.83-.88753 1.4269c-4.9564 7.9666-6.3764 17.321-5.6731 37.378.36584 10.437 1.1246 23.51 1.6874 29.062.38895 3.8372 3.8278 32.454 4.6105 38.459 4.6694-.24176 9.2946.2879 14.377 1.481 1.2359-3.2937 5.2496-13.088 8.886-21.623 6.249-14.668 8.4128-21.264 10.253-31.252 1.2464-6.7626 1.6341-12.156 1.4204-19.764-.36325-12.93-2.1234-19.487-6.9377-25.843-2.0833-2.7507-6.9865-7.6112-7.9127-7.8436-.79716-.20019-6.6946-1.0922-6.7755-1.0248-.02213.0182-5.0006-.41858-7.5248-.22808l-2.149-.22808h-3.3738z"/>
+     <path style="fill:currentColor" d="m61.915 883.28-3.2484.4497c-1.7863.24724-3.5182.53481-3.8494.63994-2.4751.33811-4.7267.86957-6.7777 1.5696-.28598 0-1.0254.20146-2.3695.58589-5.0418 1.4418-6.6374 2.2604-8.2567 4.2364-6.281 7.6657-11.457 18.43-12.932 26.891-1.4667 8.4111.71353 22.583 5.0764 32.996 3.8064 9.0852 13.569 25.149 22.801 37.517 1.3741 1.841 2.1708 2.9286 2.4712 3.5792 3.5437-1.1699 6.8496-1.9336 10.082-2.3263-1.3569-5.7831-4.6968-21.86-6.8361-33.002-.92884-4.8368-2.4692-14.322-3.2452-19.991-.68557-5.0083-.77707-6.9534-.74159-15.791.04316-10.803.41822-16.162 1.5026-21.503 1.4593-5.9026 3.3494-11.077 6.3247-15.852z"/>
+     <path style="fill:currentColor" d="m94.499 885.78c-.10214-.0109-.13691 0-.0907.0409.16033.13489 1.329 1.0675 2.5976 2.0723 6.7003 5.307 11.273 14.568 12.658 25.638.52519 4.1949.24765 14.361-.5059 18.523-2.4775 13.684-9.7807 32.345-20.944 53.519l-3.0559 5.7971c2.8082.76579 5.7915 1.727 8.9926 2.8441 11.562-11.691 18.349-19.678 24.129-28.394 7.8992-11.913 11.132-20.234 12.24-31.518.98442-10.02-1.5579-20.876-6.7799-28.959-.2758-.4269-.57803-.86856-.89617-1.3166-3.247-6.13-9.752-12.053-21.264-16.131-2.3687-.86369-6.3657-2.0433-7.0802-2.1166z"/>
+     <path style="fill:currentColor" d="m32.52 892.22c-.20090-.13016-1.4606.81389-3.9132 2.7457-11.486 9.0476-17.632 24.186-16.078 39.61.79699 7.9138 2.4066 13.505 5.9184 20.562 5.8577 11.77 14.749 23.219 30.087 38.74.05838.059.12188.1244.18052.1838 1.3166-.5556 2.5965-1.0618 3.8429-1.5199-.66408-.32448-1.4608-1.3297-3.8116-4.4602-5.0951-6.785-8.7512-11.962-13.051-18.486-5.1379-7.7948-5.0097-7.5894-8.0586-13.054-6.2097-11.13-8.2674-17.725-8.6014-27.563-.21552-6.3494.13041-9.2733 1.775-14.987 2.1832-7.5849 3.9273-10.986 9.2693-18.07 1.7839-2.3656 2.6418-3.57 2.4409-3.7003z"/>
+     <path style="fill:currentColor" d="m69.133 992.37c-6.2405.0309-12.635.76718-19.554 2.5706 4.6956 4.7759 9.935 10.258 12.05 12.625l4.1272 4.6202h11.493l3.964-4.4516c2.0962-2.3541 7.4804-7.9845 12.201-12.768-8.378-1.4975-16.207-2.6353-24.281-2.5955z"/>
+     <rect style="stroke-width:0;fill:currentColor" ry="2.0328" height="27.746" width="22.766" y="1017.7" x="60.201"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="info" viewBox="0 0 41.667 41.667">
+   <g transform="translate(-37.035 -1004.6)">
+    <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m76.25 1030.2a18.968 18.968 0 0 1 -23.037 13.709 18.968 18.968 0 0 1 -13.738 -23.019 18.968 18.968 0 0 1 23.001 -13.768 18.968 18.968 0 0 1 13.798 22.984"/>
+    <g transform="matrix(1.1146 0 0 1.1146 -26.276 -124.92)">
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m75.491 1039.5v-8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" transform="scale(-1)" d="m-73.193-1024.5a2.3719 2.3719 0 0 1 -2.8807 1.7142 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="warning" viewBox="0 0 48.430474 41.646302">
+    <g transform="translate(-1.1273 -1010.2)">
+     <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:4.151;fill:none" d="m25.343 1012.3-22.14 37.496h44.28z"/>
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:4.1512;fill:none" d="m25.54 1027.7v8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" d="m27.839 1042.8a2.3719 2.3719 0 0 1 -2.8807 1.7143 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+  </symbol>
+
+  <symbol id="menu" viewBox="0 0 50 50">
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="0" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="20" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="40" x="0"/>
+   </symbol>
+
+   <symbol id="link" viewBox="0 0 50 50">
+    <g transform="translate(0 -1002.4)">
+     <g transform="matrix(.095670 0 0 .095670 2.3233 1004.9)">
+      <g>
+       <path style="stroke-width:0;fill:currentColor" d="m452.84 192.9-128.65 128.65c-35.535 35.54-93.108 35.54-128.65 0l-42.881-42.886 42.881-42.876 42.884 42.876c11.845 11.822 31.064 11.846 42.886 0l128.64-128.64c11.816-11.831 11.816-31.066 0-42.9l-42.881-42.881c-11.822-11.814-31.064-11.814-42.887 0l-45.928 45.936c-21.292-12.531-45.491-17.905-69.449-16.291l72.501-72.526c35.535-35.521 93.136-35.521 128.64 0l42.886 42.881c35.535 35.523 35.535 93.141-.001 128.66zm-254.28 168.51-45.903 45.9c-11.845 11.846-31.064 11.817-42.881 0l-42.884-42.881c-11.845-11.821-11.845-31.041 0-42.886l128.65-128.65c11.819-11.814 31.069-11.814 42.884 0l42.886 42.886 42.876-42.886-42.876-42.881c-35.54-35.521-93.113-35.521-128.65 0l-128.65 128.64c-35.538 35.545-35.538 93.146 0 128.65l42.883 42.882c35.51 35.54 93.11 35.54 128.65 0l72.496-72.499c-23.956 1.597-48.092-3.784-69.474-16.283z"/>
+      </g>
+     </g>
+    </g>
+  </symbol>
+
+  <symbol id="doc" viewBox="0 0 35 45">
+   <g transform="translate(-147.53 -539.83)">
+    <path style="stroke:currentColor;stroke-width:2.4501;fill:none" d="m149.38 542.67v39.194h31.354v-39.194z"/>
+    <g style="stroke-width:25" transform="matrix(.098003 0 0 .098003 133.69 525.96)">
+     <path d="m220 252.36h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path style="stroke:currentColor;stroke-width:25;fill:none" d="m220 409.95h200"/>
+     <path d="m220 488.74h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path d="m220 331.15h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+    </g>
+   </g>
+ </symbol>
+
+ <symbol id="tick" viewBox="0 0 177.16535 177.16535">
+  <g transform="translate(0 -875.2)">
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="155" width="40" y="702.99" x="556.82"/>
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="40" width="90.404" y="817.99" x="506.42"/>
+  </g>
+ </symbol>
+</svg>
+
+    <div class="wrapper">
+      <header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a
+        class="logo"
+        href="/"
+        aria-label="Data Templar home page"
+      >
+        <img src="/images/logo.svg" alt="">
+      </a>
+      <p class="library-desc">
+        
+      </p>
+    </div>
+    <nav id="patterns-nav" class="patterns" role="navigation">
+  <h2 class="vh"></h2>
+  <button id="menu-button" aria-expanded="false">
+    <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
+      <use xlink:href="#menu"></use>
+    </svg>
+    
+  </button>
+  
+  <ul id="patterns-list">
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Home</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/post/" aria-current="page">
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Blog</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/publications" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Publications</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/veille" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Listes des sources veille</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/apropos/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">A propos</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/tags/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Tags</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/mentions-legales/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Mentions légales</span>
+      </a>
+    </li>
+  
+  </ul>
+</nav>
+    
+  </div>
+</header>
+
+      <div class="main-and-footer">
+        <div>
+          
+  <main id="main">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Cartographie par consolidation de référentiels
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong> </strong>Jan 31, 2019
+      
+        
+      
+    </div>
+
+    
+      <div class="tags">
+        <strong> </strong>
+        <ul aria-label="">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="/tags/cartographie/">Cartographie</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="/tags/astuces/">Astuces</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+    
+      
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading"></h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#identifier-les-r%c3%a9f%c3%a9rentiels-en-place">
+            Identifier les référentiels en place
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#pr%c3%a9parer-lanalyse">
+            Préparer l’analyse
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#lanalyse">
+            L’analyse
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
+
+    
+
+    <p>Quand vous commencer une mission en régie ou pour de l&rsquo;audit, vous aurez besoin de préciser le périmètre sur lequel vous allez travailler. Il arrive que celui-ci ne soit pas fiable ou clair. Dans ce cas réaliser une cartographie des actifs sur lesquels vous allez travailler peu être une bonne idée. Je vous propose une méthodologie à suivre pour réaliser cette cartographie à travers le recoupement de différents référentiels actuellement en place.</p>
+<h2 id="identifier-les-référentiels-en-place">Identifier les référentiels en place</h2>
+<p>La première étape sera d&rsquo;identifier la liste des référentiels existants. Habituellement il y a un référentiel officiel qui est sous la responsabilité de l&rsquo;architecture IT. Pour des raisons souvent pratiques d&rsquo;autres services ont créé leur référentiel. Souvent il est valable sur un périmètre plus réduit ou va apporter des meta données supplémentaires. Il est donc important de savoir le contenu de chaque référentiel. Les principales questions à se poser sont :</p>
+<p>-Qui a construit/est le responsable du le référentiel? On comprendra plus facilement le contexte du référentiel</p>
+<p>-Quel est son besoin ou qu&rsquo;elles sont les informations stockées? On pourra déterminer les informations utiles du référentiel ainsi que la logique de construction.</p>
+<p>-Quelle est la granularité du référentiel? On pourra réaliser si les identifiants sont comparables ou non.</p>
+<p>La dernière question est très importante, car entre deux référentiels nous retrouvons rarement une relation de 1 pour 1. Généralement car un référentiel est construit sur une vision technique (maintenu pour l&rsquo;IT) tandis que l&rsquo;autre est construit sur une vision fonctionnelle (maintenu pour le business). Selon moi le référentiel devrait définir le type d&rsquo;asset qui est étudié. Celui-ci peut être un serveur physique, un serveur logique, un middleware, une application, un module d&rsquo;une application. Ce modèle n&rsquo;est pas fixe et sera très différent dans le cas d&rsquo;un environnement Cloud ou SAAS, la responsabilité n&rsquo;étant pas la même pour tous. Les définitions des assets doit être un chapitre d&rsquo;une politique de cartographie pour faciliter l&rsquo;enrôlement de tous dans le modèle défini.</p>
+<p>Si vous souhaitez être exhaustif lors d&rsquo;une cartographie des actifs et que vous n&rsquo;avez pas assez de référentiels, voici une liste de services qui devraient avoir un référentiel à vous fournir:</p>
+<p>-Architecture IT</p>
+<p>-RSSI (dans les entités complexes il peut y avoir une séparation entre IAM, l&rsquo;App sec et la continuité)</p>
+<p>-DPO (RGPD)</p>
+<p>-Etude IT</p>
+<p>-Manager d&rsquo;équipes business</p>
+<h2 id="préparer-lanalyse">Préparer l&rsquo;analyse</h2>
+<p>Vous venez de récupérer deux à trois référentiels (plus avec de la chances), il est maintenant temps de les croiser pour mettre à jour votre cartographie. Il est temps désormais de recouper les informations entre chaque base de données. Si vous avez pu échanger avec les créateurs ou sachant de chaque référentiel, vous avez la chance de savoir comment le référentiel a été construit et certainement ces points forts et faibles. Vous aurez aussi l&rsquo;information la plus importante, l&rsquo;origine des id et s&rsquo;ils sont réutilisés. Que l&rsquo;id soit numérique ou alphanumérique, il est une valeur de recherche bien plus fiable que le nom de l&rsquo;actif. Celui peut avoir subi les fautes de frappes, les accentuations perdues ou des majuscules oubliées. Il est aussi possible de créer son propre ID en transformant ou concaténant certains champs. Par exemple transformer tous les &ldquo;é&rdquo; en &ldquo;e&rdquo; et supprimer les espaces ainsi que les ponctuations dans le nom d&rsquo;une application peut faire un ID utilisable même s&rsquo;il n&rsquo;est pas certains. On peut aussi créer une concaténation entre l&rsquo;id alphanumérique et le nom de l&rsquo;application si on souhaite faire des recherches pour éviter les homonymes.</p>
+<p>Pour illustrer mes propos voici un exemple entre 2 référentiels</p>
+<p>Référentiel 1:</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nom de l&rsquo;actif</th>
+<th>Type</th>
+<th>Statut</th>
+<th>Responsable</th>
+<th>Meta data 1</th>
+<th>Metadata 2</th>
+<th>Nom sans ponctuation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500</td>
+<td>Serveur web</td>
+<td>Infra</td>
+<td>Production</td>
+<td>Dupond J</td>
+<td>critique</td>
+<td>128.0.2.1</td>
+<td>serveurweb</td>
+</tr>
+<tr>
+<td>501</td>
+<td>Comptapro</td>
+<td>Progiciel</td>
+<td>Production</td>
+<td>Bedeneau Q</td>
+<td>critique</td>
+<td>128.0.2.2</td>
+<td>comptapro</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Hercule poirot</td>
+<td>Application</td>
+<td>Décomissionné</td>
+<td>Bedeneau Q</td>
+<td>critique</td>
+<td>128.0.2.3</td>
+<td>herculepoirot</td>
+</tr>
+<tr>
+<td>503</td>
+<td>Nexus</td>
+<td>Application</td>
+<td>Production</td>
+<td>Bob</td>
+<td>medium</td>
+<td>128.0.2.4</td>
+<td>nexus</td>
+</tr>
+</tbody>
+</table>
+<p>Référentiel 2:</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nom de l&rsquo;actif</th>
+<th>Type</th>
+<th>Statut</th>
+<th>Responsable</th>
+<th>Id ref central</th>
+<th>Nom sans ponctuation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WEBA</td>
+<td><a href="http://www.datatemplar.fr">www.datatemplar.fr</a></td>
+<td>appli</td>
+<td>Prod</td>
+<td>Denis</td>
+<td>500</td>
+<td>wwwdatatemplarfr</td>
+</tr>
+<tr>
+<td>APP0</td>
+<td>Hercule Poirot</td>
+<td>appli</td>
+<td>Prod</td>
+<td>Quentin</td>
+<td></td>
+<td>herculepoirot</td>
+</tr>
+<tr>
+<td>APP2</td>
+<td>N3xus</td>
+<td>appli</td>
+<td>Prod</td>
+<td>Quentin</td>
+<td>503</td>
+<td>n3xus</td>
+</tr>
+<tr>
+<td>APP3</td>
+<td>Agent</td>
+<td>appli</td>
+<td>Prod</td>
+<td>Bob</td>
+<td></td>
+<td>agent</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lanalyse">L&rsquo;analyse</h2>
+<p>Une fois que vous avez identifié les id que vous pouvez recroissez, munissez-vous de votre tableur préféré pour effectuer des rechercheV. Il est important de faire la recherche dans les 2 sens. Ceci permettra d&rsquo;identifier les actifs manquant d&rsquo;un référentiel à l&rsquo;autre. Vous pouvez faire votre recherche sur un ou plusieurs id parmi ceux que vous venez de créer. Je conseil de faire apparaitre un texte simple à trier et de faire les recherches dans des colonnes séparées. Le rajout d&rsquo;une colonne de consolidation vous permettra d&rsquo;évaluer la charge de recherche manuelle que vous allez avoir.</p>
+<p>Le &ldquo;code&rdquo; à mettre en place pour la recherche est :</p>
+<p>SI résultat recherche existe ALORS &ldquo;trouvée&rdquo; SINON &ldquo;absente&rdquo;</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nom de l&rsquo;actif</th>
+<th>Type</th>
+<th>Statut</th>
+<th>Responsable</th>
+<th>Meta data 1</th>
+<th>Metadata 2</th>
+<th>Nom sans ponctuation</th>
+<th>Recherche ID</th>
+<th>Recherche nom</th>
+<th>Consolidation résultat</th>
+<th>Indice de confiance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500</td>
+<td>Serveur web</td>
+<td>Infra</td>
+<td>Production</td>
+<td>Dupond J</td>
+<td>critique</td>
+<td>128.0.2.1</td>
+<td>serveurweb</td>
+<td>Trouvée</td>
+<td>Absente</td>
+<td>Trouvée</td>
+<td>50</td>
+</tr>
+<tr>
+<td>501</td>
+<td>Comptapro</td>
+<td>Progiciel</td>
+<td>Production</td>
+<td>Bedeneau Q</td>
+<td>critique</td>
+<td>128.0.2.2</td>
+<td>comptapro</td>
+<td>Absente</td>
+<td>Absente</td>
+<td>Absente</td>
+<td>0</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Hercule poirot</td>
+<td>Application</td>
+<td>Décomissionné</td>
+<td>Bedeneau Q</td>
+<td>critique</td>
+<td>128.0.2.3</td>
+<td>herculepoirot</td>
+<td>Trouvée</td>
+<td>Trouvée</td>
+<td>Trouvée</td>
+<td>100</td>
+</tr>
+<tr>
+<td>503</td>
+<td>Nexus</td>
+<td>Application</td>
+<td>Production</td>
+<td>Bob</td>
+<td>medium</td>
+<td>128.0.2.4</td>
+<td>nexus</td>
+<td>Trouvée</td>
+<td>Absente</td>
+<td>Trouvée</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nom de l&rsquo;actif</th>
+<th>Type</th>
+<th>Statut</th>
+<th>Responsable</th>
+<th>Id ref central</th>
+<th>Nom sans ponctuation</th>
+<th>Recherche ID</th>
+<th>Recherche nom</th>
+<th>Consolidation résultat</th>
+<th>Indice de confiance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WEBA</td>
+<td><a href="http://www.datatemplar.fr">www.datatemplar.fr</a></td>
+<td>appli</td>
+<td>Prod</td>
+<td>Denis</td>
+<td>500</td>
+<td>wwwdatatemplarfr</td>
+<td>Trouvée</td>
+<td>Absente</td>
+<td>Trouvée</td>
+<td>50</td>
+</tr>
+<tr>
+<td>WEBB</td>
+<td><a href="http://www.datatemplar.fr/blog">www.datatemplar.fr/blog</a></td>
+<td>appli</td>
+<td>Prod</td>
+<td>Denis</td>
+<td>500</td>
+<td>Wwwdatatemplarfrblog</td>
+<td>Trouvée</td>
+<td>Absente</td>
+<td>Trouvée</td>
+<td>50</td>
+</tr>
+<tr>
+<td>APP0</td>
+<td>Hercule Poirot</td>
+<td>appli</td>
+<td>Prod</td>
+<td>Quentin</td>
+<td>502</td>
+<td>herculepoirot</td>
+<td>Trouvée</td>
+<td>Trouvée</td>
+<td>Trouvée</td>
+<td>100</td>
+</tr>
+<tr>
+<td>APP2</td>
+<td>N3xus</td>
+<td>appli</td>
+<td>Prod</td>
+<td>Quentin</td>
+<td>503</td>
+<td>n3xus</td>
+<td>Trouvée</td>
+<td>Absente</td>
+<td>Trouvée</td>
+<td>50</td>
+</tr>
+<tr>
+<td>APP3</td>
+<td>Agent</td>
+<td>appli</td>
+<td>Prod</td>
+<td>Bob</td>
+<td>agent</td>
+<td>Absente</td>
+<td>Absente</td>
+<td>Absente</td>
+<td>0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Si le nombre d&rsquo;id à comparer est important, il est alors possible de mettre en place un indice de confiance sur la consolidation globale. Pour chaque ligne on peut avoir nombre de &ldquo;Trouvée&rdquo; / nombre de recherche. Cet indicateur est très important en cas de recherche entre de nombreux référentiels.</p>
+<p>L&rsquo;avantage d&rsquo;avoir indiqué si l&rsquo;application a été trouvée ou non dans un référentiel et que vous pouvez rapidement filtrer pour rechercher les applications absentes. La présentation de ces résultats sera aussi plus simple à un interlocuteur qui ne vous a pas aidé. Cependant avant cette étape je conseille de faire un filtre sur toutes les applications qui n&rsquo;ont pas un score de confiance de 100% et d&rsquo;ajouter un commentaire pour expliquer la différence. Cette recherche manuelle pourra dans certains cas mettre en avant des erreurs ou de trouver des associations qui n&rsquo;ont pas pu être identifiées avec la recherche manuelle. Dans ces commentaires n&rsquo;hésitez pas à mettre des suppositions que vous ferais valider lors d&rsquo;un atelier de validation.</p>
+<p>Il ne vous reste plus qu&rsquo;à définir la date d&rsquo;un atelier avec les différents sachants. Ils vous remercieront d&rsquo;avoir pré-maché l&rsquo;analyse des référentiels. Vous aurez désormais une cartographie de vos assets. Cependant il faudra mettre en place un processus pour la maintenir en vie car de nombreux changements lui seront apportés.</p>
+<p>N&rsquo;hésitez pas à faire part de vos impressions sur les réseaux sociaux concernant cet article !</p>
+
+  </main>
+  <div id="disqus-container">
+  
+</div>
+
+
+          
+            <footer role="contentinfo">
+  <div
+  
+  >
+    <label for="themer">
+       <input type="checkbox" id="themer" class="vh">
+      
+      <span aria-hidden="true"></span>
+    </label>
+  </div>
+  
+    Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>.
+  
+</footer>
+
+          
+        </div>
+      </div>
+    </div>
+    
+
+<script src="/js/dom-scripts.js"></script>  
+
+<script src="/js/prism.js"></script>
+
+
+
+<script src="/js/search.da4e0819db35e5fc5289562d46cf4a2173684e337d69d997639a24b79ecd6416.js"></script>
+
+<link rel="stylesheet" href="/css/search.54f9a90ceddfdaa3e66698090e7d4a7e7a7f217c85bc79c48ed09c8cb3ee6777.css"></link>
+
+
+
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+    
+  
+
+  </body>
+</html>

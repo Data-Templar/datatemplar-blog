@@ -1,0 +1,25 @@
+.filters label {
+    margin-top: 0;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+}
+.filters input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+.filters input:focus {
+    -webkit-appearance: none;
+    outline: none;
+}
+select {
+    width: 100%;
+}
+table {
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+    display: block;
+    border-collapse: collapse;
+    overflow-x: scroll;
+}
