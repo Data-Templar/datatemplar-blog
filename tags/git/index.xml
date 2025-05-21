@@ -13,8 +13,7 @@
       <link>/gitreset/</link>
       <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
       <guid>/gitreset/</guid>
-      <description>Lorsque je fais des modifications sur le blog, j&amp;rsquo;ai souvent des misères avec l&amp;rsquo;outil d&amp;rsquo;auto déploiement Circle CI. En général, il s&amp;rsquo;agit d&amp;rsquo;une nouvelle version de l&amp;rsquo;API que je n&amp;rsquo;ai pas prise en compte. Puisque je ne peux tester mes run uniquement lorsque je fais le push d&amp;rsquo;un nouveau commit, mon historique ressemble rapidement au screenshot ci-dessous.
-De nombreux commit ne sont pas nécessaires et viennent polluer mon historique. Dans le cas de la capture d&amp;rsquo;écran, les 10 derniers commits sont à jeter.</description>
+      <description>Lorsque je fais des modifications sur le blog, j&amp;rsquo;ai souvent des misères avec l&amp;rsquo;outil d&amp;rsquo;auto déploiement Circle CI. En général, il s&amp;rsquo;agit d&amp;rsquo;une nouvelle version de l&amp;rsquo;API que je n&amp;rsquo;ai pas prise en compte. Puisque je ne peux tester mes run uniquement lorsque je fais le push d&amp;rsquo;un nouveau commit, mon historique ressemble rapidement au screenshot ci-dessous.&#xA;De nombreux commit ne sont pas nécessaires et viennent polluer mon historique. Dans le cas de la capture d&amp;rsquo;écran, les 10 derniers commits sont à jeter.</description>
     </item>
   </channel>
 </rss>
