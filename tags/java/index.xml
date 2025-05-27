@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Data Templar</title>
+    <link>/tags/java/</link>
+    <description>Recent content in Java on Data Templar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 25 May 2025 22:35:40 +0100</lastBuildDate>
+    <atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installer Android Studio</title>
+      <link>/installer-android-studio/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/installer-android-studio/</guid>
+      <description>J&amp;rsquo;ai repris le développement d&amp;rsquo;une application android pour le simuler des trackers GPS afin de tester une plateforme. J&amp;rsquo;ai donc du passer par Android Studio pour développer cette application.&#xA;Installer Android Studio sur D: avec les SDK et Gradle Lorsque l&amp;rsquo;on installe Android Studio, la plupart des fichiers essentiels (SDK, Gradle, etc.) sont placés par défaut sur C:. Mais que faire si l&amp;rsquo;on souhaite tout configurer sur D: ? Voici un guide détaillé pour y parvenir.</description>
+    </item>
+  </channel>
+</rss>

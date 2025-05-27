@@ -3,24 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/cohoma/</loc>
-    <lastmod>2025-05-20T22:35:40+01:00</lastmod>
+    <lastmod>2025-05-26T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/android/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/android-studio/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/d%C3%A9veloppement/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/gestion-stockage-windows/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/ide/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/installer-android-studio/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/java/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/syst%C3%A8me/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
+  </url><url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2025-05-25T22:35:40+01:00</lastmod>
   </url><url>
     <loc>/privacy/</loc>
     <lastmod>2024-04-07T22:35:40+01:00</lastmod>
-  </url><url>
-    <loc>/tags/d%C3%A9veloppement/</loc>
-    <lastmod>2021-01-22T12:00:00+01:00</lastmod>
   </url><url>
     <loc>/tags/git/</loc>
     <lastmod>2021-01-22T12:00:00+01:00</lastmod>
   </url><url>
     <loc>/gitreset/</loc>
-    <lastmod>2021-01-22T12:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2021-01-22T12:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-01-22T12:00:00+01:00</lastmod>
   </url><url>
     <loc>/tags/aws/</loc>

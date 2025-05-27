@@ -6,8 +6,15 @@
     <description>Recent content in Développement on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 May 2025 22:35:40 +0100</lastBuildDate>
     <atom:link href="/tags/d%C3%A9veloppement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installer Android Studio</title>
+      <link>/installer-android-studio/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/installer-android-studio/</guid>
+      <description>J&amp;rsquo;ai repris le développement d&amp;rsquo;une application android pour le simuler des trackers GPS afin de tester une plateforme. J&amp;rsquo;ai donc du passer par Android Studio pour développer cette application.&#xA;Installer Android Studio sur D: avec les SDK et Gradle Lorsque l&amp;rsquo;on installe Android Studio, la plupart des fichiers essentiels (SDK, Gradle, etc.) sont placés par défaut sur C:. Mais que faire si l&amp;rsquo;on souhaite tout configurer sur D: ? Voici un guide détaillé pour y parvenir.</description>
+    </item>
     <item>
       <title>Nettoyage de l&#39;historique Git</title>
       <link>/gitreset/</link>

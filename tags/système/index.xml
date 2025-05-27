@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Système on Data Templar</title>
+    <link>/tags/syst%C3%A8me/</link>
+    <description>Recent content in Système on Data Templar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 25 May 2025 22:35:40 +0100</lastBuildDate>
+    <atom:link href="/tags/syst%C3%A8me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gestion stockage Windows</title>
+      <link>/gestion-stockage-windows/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/gestion-stockage-windows/</guid>
+      <description>🖥️ Optimiser la gestion de l&amp;rsquo;espace disque sous Windows Dans un environnement Windows classique, le disque C: héberge le système d&amp;rsquo;exploitation, les programmes et les dossiers utilisateurs. Cependant, dans certaines configurations spécifiques, l&amp;rsquo;espace disponible sur C: peut être extrêmement limité, empêchant toute mise à jour ou installation de nouveaux logiciels. Voici comment j&amp;rsquo;ai contourné ce problème en déplaçant mon profil utilisateur vers un autre disque.&#xA;🚧 La problématique J&amp;rsquo;avais l&amp;rsquo;habitude de travailler sans restriction de stockage, mais sur un système avec une partition C: de seulement quelques gigas, je me suis retrouvé bloqué.</description>
+    </item>
+  </channel>
+</rss>

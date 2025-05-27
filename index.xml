@@ -9,11 +9,25 @@
     <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Télécharger Cohoma</title>
+      <title>Politique de confidentialité Application Cohoma</title>
       <link>/cohoma/</link>
-      <pubDate>Tue, 20 May 2025 22:35:40 +0100</pubDate>
+      <pubDate>Mon, 26 May 2025 22:35:40 +0100</pubDate>
       <guid>/cohoma/</guid>
-      <description>Télécharger l&amp;rsquo;APK</description>
+      <description>📌 Application : Partage Localisation - Cohoma Challenge 🗓️ Dernière mise à jour : 2025-05-26 22:35:40 &amp;#43;0100 &amp;#43;0100&#xA;Bienvenue sur Partage Localisation, une application développée exclusivement pour les participants du challenge Cohoma. Nous attachons une grande importance à la protection de vos données personnelles et à leur transparence.&#xA;🔹 1️⃣ Collecte des données Nous collectons uniquement les données de localisation des utilisateurs dans le cadre du challenge Cohoma, à savoir :</description>
+    </item>
+    <item>
+      <title>Gestion stockage Windows</title>
+      <link>/gestion-stockage-windows/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/gestion-stockage-windows/</guid>
+      <description>🖥️ Optimiser la gestion de l&amp;rsquo;espace disque sous Windows Dans un environnement Windows classique, le disque C: héberge le système d&amp;rsquo;exploitation, les programmes et les dossiers utilisateurs. Cependant, dans certaines configurations spécifiques, l&amp;rsquo;espace disponible sur C: peut être extrêmement limité, empêchant toute mise à jour ou installation de nouveaux logiciels. Voici comment j&amp;rsquo;ai contourné ce problème en déplaçant mon profil utilisateur vers un autre disque.&#xA;🚧 La problématique J&amp;rsquo;avais l&amp;rsquo;habitude de travailler sans restriction de stockage, mais sur un système avec une partition C: de seulement quelques gigas, je me suis retrouvé bloqué.</description>
+    </item>
+    <item>
+      <title>Installer Android Studio</title>
+      <link>/installer-android-studio/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/installer-android-studio/</guid>
+      <description>J&amp;rsquo;ai repris le développement d&amp;rsquo;une application android pour le simuler des trackers GPS afin de tester une plateforme. J&amp;rsquo;ai donc du passer par Android Studio pour développer cette application.&#xA;Installer Android Studio sur D: avec les SDK et Gradle Lorsque l&amp;rsquo;on installe Android Studio, la plupart des fichiers essentiels (SDK, Gradle, etc.) sont placés par défaut sur C:. Mais que faire si l&amp;rsquo;on souhaite tout configurer sur D: ? Voici un guide détaillé pour y parvenir.</description>
     </item>
     <item>
       <title>Politique de confidentialité Android</title>

@@ -6,13 +6,55 @@
     <description>Recent content in Tags on Data Templar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 May 2025 22:35:40 +0100</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>/tags/android/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android Studio</title>
+      <link>/tags/android-studio/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/tags/android-studio/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Développement</title>
       <link>/tags/d%C3%A9veloppement/</link>
-      <pubDate>Fri, 22 Jan 2021 12:00:00 +0100</pubDate>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
       <guid>/tags/d%C3%A9veloppement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDE</title>
+      <link>/tags/ide/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/tags/ide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>/tags/java/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Système</title>
+      <link>/tags/syst%C3%A8me/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/tags/syst%C3%A8me/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Sun, 25 May 2025 22:35:40 +0100</pubDate>
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     <item>
